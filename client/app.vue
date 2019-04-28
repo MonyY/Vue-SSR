@@ -12,7 +12,8 @@ import Header from './layout/header.vue';
 import Footer from './layout/footer.jsx';
 import Todo from './views/todo/todo.vue';
 
-console.log(sadaasssfsffa);
+console.log(s);
+
 
 export default {
 	components: {
