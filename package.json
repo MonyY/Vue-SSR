@@ -11,8 +11,10 @@
     "lint": "eslint --fix --ext .js --ext .jsx --ext .vue client/",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.client.js"
   },
-  "hooks": {
-    "pre-commit": "npm run lint"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "author": "",
   "license": "ISC",
