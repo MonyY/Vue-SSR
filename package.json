@@ -1,5 +1,5 @@
 {
-  "name": "vue-ssr-tech",
+  "name": "vue-ssr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,8 +13,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run lint"
+      "pre-commit": "npm lint"
     }
   },
   "author": "",
